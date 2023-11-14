@@ -1,0 +1,59 @@
+.hello{
+    color: palevioletred;
+    background-color: blueviolet;
+    border: black solid 2px;
+    margin: 20px;
+    padding: 20px;
+}
+html, body{
+    margin: 0;
+  }
+  
+  body{
+    background: rgba(235, 164, 129, 0.8);
+  }
+  
+  nav{
+    height: 50px;
+    width: 500px;
+    margin: 30px auto;
+    background-color: rgb(156, 156, 157);
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+  }
+  
+  p{
+    color: black;
+    position: absolute;
+    top: -1px;
+    left: 15px;
+    font-family: 'Edu TAS Beginner', cursive;
+    cursor: pointer;
+  }
+  
+  .links{
+    text-align: center;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    position: relative;
+    top: 15px;
+  }
+  
+  a:hover{
+    color: rgb(217,255,46);
+  }
+  
+  p:hover{
+    color: rgb(217,255,46);
+  }
+  
+  .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
